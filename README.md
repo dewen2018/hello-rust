@@ -7,6 +7,11 @@ git branch -M main
 git remote add origin git@github.com:dewen2018/hello-rust.git
 git push -u origin main
 
+## 插曲：提交github无权限
+ls -l ~/.ssh
+cat ~/.ssh/id_rsa.pub
+没有的话执行 ssh-keygen
+
 # …or push an existing repository from the command line
 git remote add origin git@github.com:dewen2018/hello-rust.git
 git branch -M main
